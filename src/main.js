@@ -20,7 +20,7 @@ function loaderShow() {
 }
 
 function btnShow() {
-  loadMoreBtn.classList.toggle('visible-btn');
+  loadMoreBtn.classList.toggle('load-more');
 }
 
 const lightbox = new SimpleLightbox('.images a', {
@@ -65,7 +65,7 @@ async function searchImages(evt) {
     list.insertAdjacentHTML('beforeend', createMarkup(data.hits));
     lightbox.refresh();
     totalPages = Math.ceil(data.totalHits / 15);
-    if (page < totalPages) {
+    if (page <= totalPages) {
       btnShow();
     }
     form.reset();

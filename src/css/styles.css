@@ -111,9 +111,6 @@
 }
 
 .btn-load {
-  position: fixed;
-  top: 100;
-  right: 0;
   border-radius: 10px;
   width: 90px;
   height: 30px;
@@ -138,4 +135,8 @@
 
 .is-visible {
   visibility: visible;
+}
+
+.load-more {
+  display: none;
 }
