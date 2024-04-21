@@ -109,6 +109,19 @@
   animation: rotation 1s linear infinite;
 }
 
+.btn-load {
+  border-radius: 10px;
+  width: 90px;
+  height: 30px;
+  color: #ffffff;
+  background: #4e75ff;
+  border: none;
+}
+
+.btn-load:hover {
+  background: #6c8cff;
+}
+
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
