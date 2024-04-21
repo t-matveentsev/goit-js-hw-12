@@ -49,6 +49,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  padding-bottom: 20px;
   row-gap: 24px;
   column-gap: 24px;
   background-color: #fff;
